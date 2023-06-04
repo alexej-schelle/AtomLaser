@@ -205,21 +205,21 @@ for l in range(1, sample):
             
             ptn_number_1.append(omx+omy+omz)
 
-            betamu_x_1.append(2.0*betamu.real/3.0/rhbkb*temp) # Collect all modes without zero mode
+            betamu_x_1.append(betamu.real/rhbkb*temp) # Collect all modes without zero mode
             betamu_y_1.append(betamu.imag/rhbkb*temp) # Collect all modes without zero mode
 
         if (operator.lt((omx - omy),1.0E-3) and omy != omz and omx != omz): 
         
             ptn_number_2.append(omx+omy+omz)
         
-            betamu_x_2.append(2.0*betamu.real/3.0/rhbkb*temp) # Collect all modes without zero mode
+            betamu_x_2.append(betamu.real/rhbkb*temp) # Collect all modes without zero mode
             betamu_y_2.append(betamu.imag/rhbkb*temp) # Collect all modes without zero mode
 
         if (omx != omy and omy != omz and omx != omz): 
             
             ptn_number_3.append(omx+omy+omz)
         
-            betamu_x_3.append(2.0*betamu.real/3.0/rhbkb*temp) # Collect all modes without zero mode
+            betamu_x_3.append(betamu.real/rhbkb*temp) # Collect all modes without zero mode
             betamu_y_3.append(betamu.imag/rhbkb*temp) # Collect all modes without zero mode
         
         if (operator.gt(mu.real,0.0)): # First case
