@@ -120,7 +120,7 @@ for l in range(1, sample):
 
     print('Sample step Nr. ' + str(l))
                   
-    for k in range(1, maxmode):
+    for k in range(1, maxmode): # remark : sum is taken over all modes, but the zero (condensate) mode
         
         en_x[k] = rhbkb*k*omx/temp # Energy in x direction
         en_y[k] = rhbkb*k*omy/temp # Energy in y direction
