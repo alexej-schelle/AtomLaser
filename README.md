@@ -1,5 +1,5 @@
 
-# Modeling atom lasers from Bose-Einstein condensates
+# Software model for atom lasers from Bose-Einstein condensates
 Markov sampling software for the calculation of the frequency comb spectrum for a quantized field in an external confinement at ultra-cold temperatures. The Python Software 
 AtomLaser.py calculates the frequency comb spectra of superimposed wave fields (atomic lasers) released from a magneto-optical trap.
 
