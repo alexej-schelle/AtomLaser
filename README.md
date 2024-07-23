@@ -35,7 +35,7 @@ AtomLaser.py calculates the frequency comb spectra of superimposed wave fields (
 
 *********************************************************************************************************************
 
-FH-Doz. Dr. Alexej Schelle et al.
+FH-Doz. Dr. Alexej Schelle
 
 *********************************************************************************************************************
 
